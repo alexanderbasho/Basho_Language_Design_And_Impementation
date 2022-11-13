@@ -1,0 +1,76 @@
+CLASS _FIRST {
+    INTEGER HEADFUNC () 
+    {
+        INTEGER _integer; 
+        _integer = [5];
+        INTEGER _integer2 = 10; 
+        FLOAT _float = 13.7; 
+        CHARACTER _character = ['H'];
+        CHARACTER _character2 = 'H';
+        CHARROW _charrow = "assa";
+        BOOL _bool = 0;
+        BOOL _bool2;
+        _bool2 = 1;
+        
+        VOID _firstFunction (_integer, _integer2); $$ Single Line Comment
+
+       #@ 
+        @ This is 
+        @ the WHEATHER
+        @ Statement 
+        @#  
+        
+       WHETHER(_integer2>_integer) DO 
+        [
+            WRITE ("Ten is greater than five");
+            READ (_integer);
+            RETURN 0 ;
+        ]
+        OTHERWISE DO 
+        [
+            INTEGER _array = [5];
+            _array[5];
+            CHARACTER _characterArray = [10];
+            WRITE(&_characterArray);    $$ Pointer            
+        ]
+
+         WHETHER(_integer2 == _integer OR _integer2 != _integer) DO 
+        [
+            WRITE ("Nice");
+            RETURN _integer;
+        ]
+
+        DURING(_integer2>=_integer) DO [
+            _integer++;
+            $$AND
+            0b011001 AND 0b10010;   $$ Binary
+            0O121 AND 0o121;        $$ Octal
+            0xDAD AND 0XABC;        $$ Hexadecimal
+            
+            $$OR
+            0b010101 OR 0b10110;    $$ Binary
+            0O5422 OR 0o2211;       $$ Octal
+            0xFAD AND 0XABC;        $$ Hexadecimal
+
+            $$NAND
+            0b01101 NAND 0b01110;   $$ Binary
+            0O4322 NAND 0o2421;     $$ Octal
+            0xFA NAND 0XACC;        $$ Hexadecimal
+
+            $$NOR
+            0b011001 NOR 0b10010;   $$ Binary
+            0O121 NOR 0o121;        $$ Octal
+            0xDAD NOR 0XABC;        $$ Hexadecimal
+
+            $$XOR
+            0b010101 XOR 0b10110;   $$ Binary
+            0O5422 XOR 0o2211;      $$ Octal
+            0xFAD XOR 0XABC;        $$ Hexadecimal
+
+            $$XNOR
+            0B01101 XNOR 0b01110;   $$ Binary
+            0O4322 XNOR 0o2421;     $$ Octal
+            0xFA XNOR 0XACC;        $$ Hexadecimal
+        ] 
+    }
+}

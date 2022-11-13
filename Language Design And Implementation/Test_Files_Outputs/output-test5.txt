@@ -1,0 +1,315 @@
+Found Token 'CLASS' (280) at line 1 
+Found Token '_FIRST' (262) at line 1 
+Found Token '{' (305) at line 1 
+Found Token 'INTEGER' (268) at line 2 
+Found Token 'HEADFUNC' (279) at line 2 
+Found Token '(' (298) at line 2 
+Found Token ')' (299) at line 2 
+Found Token '{' (305) at line 3 
+Found Token 'INTEGER' (268) at line 4 
+Found Token '_integer' (262) at line 4 
+Found Token ';' (300) at line 4 
+Found Token '_integer' (262) at line 5 
+Found Token '=' (302) at line 5 
+Found Token '[' (303) at line 5 
+Found Token '5' (258) at line 5 
+Found Token ']' (304) at line 5 
+Found Token ';' (300) at line 5 
+Found Token 'INTEGER' (268) at line 6 
+Found Token '_integer2' (262) at line 6 
+Found Token '=' (302) at line 6 
+Found Token '10' (258) at line 6 
+Found Token ';' (300) at line 6 
+Found Token 'FLOAT' (269) at line 7 
+Found Token '_float' (262) at line 7 
+Found Token '=' (302) at line 7 
+Found Token '13.7' (259) at line 7 
+Found Token ';' (300) at line 7 
+Found Token 'CHARACTER' (270) at line 8 
+Found Token '_character' (262) at line 8 
+Found Token '=' (302) at line 8 
+Found Token '[' (303) at line 8 
+Found Token ''H'' (260) at line 8 
+Found Token ']' (304) at line 8 
+Found Token ';' (300) at line 8 
+Found Token 'CHARACTER' (270) at line 9 
+Found Token '_character2' (262) at line 9 
+Found Token '=' (302) at line 9 
+Found Token ''H'' (260) at line 9 
+Found Token ';' (300) at line 9 
+Found Token 'CHARROW' (271) at line 10 
+Found Token '_charrow' (262) at line 10 
+Found Token '=' (302) at line 10 
+Started 'CHARROW' at line 10 
+The 'CHARROW' is: 'assa' at line 10
+Ended 'CHARROW' at line 10 
+Found Token ';' (300) at line 10 
+Found Token 'BOOL' (272) at line 11 
+Found Token '_bool' (262) at line 11 
+Found Token '=' (302) at line 11 
+Found Token '0' (267) at line 11 
+Found Token ';' (300) at line 11 
+Found Token 'BOOL' (272) at line 12 
+Found Token '_bool2' (262) at line 12 
+Found Token ';' (300) at line 12 
+Found Token '_bool2' (262) at line 13 
+Found Token '=' (302) at line 13 
+Found Token '1' (266) at line 13 
+Found Token ';' (300) at line 13 
+Found Token 'VOID' (273) at line 15 
+Found Token '_firstFunction' (262) at line 15 
+Found Token '(' (298) at line 15 
+Found Token '_integer' (262) at line 15 
+Found Token ',' (301) at line 15 
+Found Token '_integer2' (262) at line 15 
+Found Token ')' (299) at line 15 
+Found Token ';' (300) at line 15 
+Found 'SINGLE LINE COMMENT' at line 15 
+Started 'MULTI LINE COMMENT' at line 17 
+Ended   'MULTI LINE COMMENT' at line 21 
+Found Token 'WHETHER' (274) at line 23 
+Found Token '(' (298) at line 23 
+Found Token '_integer2' (262) at line 23 
+Found Token '>' (295) at line 23 
+Found Token '_integer' (262) at line 23 
+Found Token ')' (299) at line 23 
+Found Token 'DO' (276) at line 23 
+Found Token '[' (303) at line 24 
+Found Token 'WRITE' (282) at line 25 
+Found Token '(' (298) at line 25 
+Started 'CHARROW' at line 25 
+The 'CHARROW' is: 'Ten is greater than five' at line 25
+Ended 'CHARROW' at line 25 
+Found Token ')' (299) at line 25 
+Found Token ';' (300) at line 25 
+Found Token 'READ' (281) at line 26 
+Found Token '(' (298) at line 26 
+Found Token '_integer' (262) at line 26 
+Found Token ')' (299) at line 26 
+Found Token ';' (300) at line 26 
+Found Token 'RETURN' (278) at line 27 
+Found Token '0' (267) at line 27 
+Found Token ';' (300) at line 27 
+Found Token ']' (304) at line 28 
+Found Token 'OTHERWISE' (277) at line 29 
+Found Token 'DO' (276) at line 29 
+Found Token '[' (303) at line 30 
+Found Token 'INTEGER' (268) at line 31 
+Found Token '_array' (262) at line 31 
+Found Token '=' (302) at line 31 
+Found Token '[' (303) at line 31 
+Found Token '5' (258) at line 31 
+Found Token ']' (304) at line 31 
+Found Token ';' (300) at line 31 
+Found Token '_array' (262) at line 32 
+Found Token '[' (303) at line 32 
+Found Token '5' (258) at line 32 
+Found Token ']' (304) at line 32 
+Found Token ';' (300) at line 32 
+Found Token 'CHARACTER' (270) at line 33 
+Found Token '_characterArray' (262) at line 33 
+Found Token '=' (302) at line 33 
+Found Token '[' (303) at line 33 
+Found Token '10' (258) at line 33 
+Found Token ']' (304) at line 33 
+Found Token ';' (300) at line 33 
+Found Token 'WRITE' (282) at line 34 
+Found Token '(' (298) at line 34 
+Found Token '&' (307) at line 34 
+Found Token '_characterArray' (262) at line 34 
+Found Token ')' (299) at line 34 
+Found Token ';' (300) at line 34 
+Found 'SINGLE LINE COMMENT' at line 34 
+Found Token ']' (304) at line 35 
+Found Token 'WHETHER' (274) at line 37 
+Found Token '(' (298) at line 37 
+Found Token '_integer2' (262) at line 37 
+Found Token '==' (294) at line 37 
+Found Token '_integer' (262) at line 37 
+Found Token 'OR' (286) at line 37 
+Found Token '_integer2' (262) at line 37 
+Found Token '!=' (294) at line 37 
+Found Token '_integer' (262) at line 37 
+Found Token ')' (299) at line 37 
+Found Token 'DO' (276) at line 37 
+Found Token '[' (303) at line 38 
+Found Token 'WRITE' (282) at line 39 
+Found Token '(' (298) at line 39 
+Started 'CHARROW' at line 39 
+The 'CHARROW' is: 'Nice' at line 39
+Ended 'CHARROW' at line 39 
+Found Token ')' (299) at line 39 
+Found Token ';' (300) at line 39 
+Found Token 'RETURN' (278) at line 40 
+Found Token '_integer' (262) at line 40 
+Found Token ';' (300) at line 40 
+Found Token ']' (304) at line 41 
+Found Token 'DURING' (275) at line 43 
+Found Token '(' (298) at line 43 
+Found Token '_integer2' (262) at line 43 
+Found Token '>=' (295) at line 43 
+Found Token '_integer' (262) at line 43 
+Found Token ')' (299) at line 43 
+Found Token 'DO' (276) at line 43 
+Found Token '[' (303) at line 43 
+Found Token '_integer' (262) at line 44 
+Found Token '++' (297) at line 44 
+Found Token ';' (300) at line 44 
+Found 'SINGLE LINE COMMENT' at line 45 
+Found Token '0b011001' (264) at line 46, Decimal Converted Number: 25
+Found Token 'AND' (285) at line 46 
+Found Token '0b10010' (264) at line 46, Decimal Converted Number: 18
+Found Token ';' (300) at line 46 
+Found 'SINGLE LINE COMMENT' at line 46 
+Found Token '0O121' (263) at line 47, Decimal Converted Number: 81
+Found Token 'AND' (285) at line 47 
+Found Token '0o121' (263) at line 47, Decimal Converted Number: 81
+Found Token ';' (300) at line 47 
+Found 'SINGLE LINE COMMENT' at line 47 
+Found Token '0xDAD' (265) at line 48, Decimal Converted Number: 3501
+Found Token 'AND' (285) at line 48 
+Found Token '0XABC' (265) at line 48, Decimal Converted Number: 2748
+Found Token ';' (300) at line 48 
+Found 'SINGLE LINE COMMENT' at line 48 
+Found 'SINGLE LINE COMMENT' at line 50 
+Found Token '0b010101' (264) at line 51, Decimal Converted Number: 21
+Found Token 'OR' (286) at line 51 
+Found Token '0b10110' (264) at line 51, Decimal Converted Number: 22
+Found Token ';' (300) at line 51 
+Found 'SINGLE LINE COMMENT' at line 51 
+Found Token '0O5422' (263) at line 52, Decimal Converted Number: 2834
+Found Token 'OR' (286) at line 52 
+Found Token '0o2211' (263) at line 52, Decimal Converted Number: 1161
+Found Token ';' (300) at line 52 
+Found 'SINGLE LINE COMMENT' at line 52 
+Found Token '0xFAD' (265) at line 53, Decimal Converted Number: 4013
+Found Token 'AND' (285) at line 53 
+Found Token '0XABC' (265) at line 53, Decimal Converted Number: 2748
+Found Token ';' (300) at line 53 
+Found 'SINGLE LINE COMMENT' at line 53 
+Found 'SINGLE LINE COMMENT' at line 55 
+Found Token '0b01101' (264) at line 56, Decimal Converted Number: 13
+Found Token 'NAND' (287) at line 56 
+Found Token '0b01110' (264) at line 56, Decimal Converted Number: 14
+Found Token ';' (300) at line 56 
+Found 'SINGLE LINE COMMENT' at line 56 
+Found Token '0O4322' (263) at line 57, Decimal Converted Number: 2258
+Found Token 'NAND' (287) at line 57 
+Found Token '0o2421' (263) at line 57, Decimal Converted Number: 1297
+Found Token ';' (300) at line 57 
+Found 'SINGLE LINE COMMENT' at line 57 
+Found Token '0xFA' (265) at line 58, Decimal Converted Number: 250
+Found Token 'NAND' (287) at line 58 
+Found Token '0XACC' (265) at line 58, Decimal Converted Number: 2764
+Found Token ';' (300) at line 58 
+Found 'SINGLE LINE COMMENT' at line 58 
+Found 'SINGLE LINE COMMENT' at line 60 
+Found Token '0b011001' (264) at line 61, Decimal Converted Number: 25
+Found Token 'NOR' (288) at line 61 
+Found Token '0b10010' (264) at line 61, Decimal Converted Number: 18
+Found Token ';' (300) at line 61 
+Found 'SINGLE LINE COMMENT' at line 61 
+Found Token '0O121' (263) at line 62, Decimal Converted Number: 81
+Found Token 'NOR' (288) at line 62 
+Found Token '0o121' (263) at line 62, Decimal Converted Number: 81
+Found Token ';' (300) at line 62 
+Found 'SINGLE LINE COMMENT' at line 62 
+Found Token '0xDAD' (265) at line 63, Decimal Converted Number: 3501
+Found Token 'NOR' (288) at line 63 
+Found Token '0XABC' (265) at line 63, Decimal Converted Number: 2748
+Found Token ';' (300) at line 63 
+Found 'SINGLE LINE COMMENT' at line 63 
+Found 'SINGLE LINE COMMENT' at line 65 
+Found Token '0b010101' (264) at line 66, Decimal Converted Number: 21
+Found Token 'XOR' (289) at line 66 
+Found Token '0b10110' (264) at line 66, Decimal Converted Number: 22
+Found Token ';' (300) at line 66 
+Found 'SINGLE LINE COMMENT' at line 66 
+Found Token '0O5422' (263) at line 67, Decimal Converted Number: 2834
+Found Token 'XOR' (289) at line 67 
+Found Token '0o2211' (263) at line 67, Decimal Converted Number: 1161
+Found Token ';' (300) at line 67 
+Found 'SINGLE LINE COMMENT' at line 67 
+Found Token '0xFAD' (265) at line 68, Decimal Converted Number: 4013
+Found Token 'XOR' (289) at line 68 
+Found Token '0XABC' (265) at line 68, Decimal Converted Number: 2748
+Found Token ';' (300) at line 68 
+Found 'SINGLE LINE COMMENT' at line 68 
+Found 'SINGLE LINE COMMENT' at line 70 
+Found Token '0B01101' (264) at line 71, Decimal Converted Number: 13
+Found Token 'XNOR' (290) at line 71 
+Found Token '0b01110' (264) at line 71, Decimal Converted Number: 14
+Found Token ';' (300) at line 71 
+Found 'SINGLE LINE COMMENT' at line 71 
+Found Token '0O4322' (263) at line 72, Decimal Converted Number: 2258
+Found Token 'XNOR' (290) at line 72 
+Found Token '0o2421' (263) at line 72, Decimal Converted Number: 1297
+Found Token ';' (300) at line 72 
+Found 'SINGLE LINE COMMENT' at line 72 
+Found Token '0xFA' (265) at line 73, Decimal Converted Number: 250
+Found Token 'XNOR' (290) at line 73 
+Found Token '0XACC' (265) at line 73, Decimal Converted Number: 2764
+Found Token ';' (300) at line 73 
+Found 'SINGLE LINE COMMENT' at line 73 
+Found Token ']' (304) at line 74 
+Found Token 'WHETHER' (274) at line 76 
+Found Token '(' (298) at line 76 
+Found Token '_integer' (262) at line 76 
+Found Token '==' (294) at line 76 
+Found Token '!' (296) at line 76 
+Found Token '_integer2' (262) at line 76 
+Found Token ')' (299) at line 76 
+Found Token 'DO' (276) at line 76 
+Found Token '[' (303) at line 77 
+Found Token '5893' (258) at line 78 
+Found Token 'MODULUS' (291) at line 78 
+Found Token '1591' (258) at line 78 
+Found Token ';' (300) at line 78 
+Found Token '50' (258) at line 79 
+Found Token 'MULTIPLY' (291) at line 79 
+Found Token '5' (258) at line 79 
+Found Token ';' (300) at line 79 
+Found Token '_integer' (262) at line 80 
+Found Token 'POWER' (293) at line 80 
+Found Token '25' (258) at line 80 
+Found Token ';' (300) at line 80 
+Found Token 'DURING' (275) at line 81 
+Found Token '(' (298) at line 81 
+Found Token '_integer2' (262) at line 81 
+Found Token '>=' (295) at line 81 
+Found Token '_integer' (262) at line 81 
+Found Token ')' (299) at line 81 
+Found Token 'DO' (276) at line 81 
+Found Token '[' (303) at line 81 
+Found Token '_integer' (262) at line 82 
+Found Token '++' (297) at line 82 
+Found Token ';' (300) at line 82 
+Found Token 'INTEGER' (268) at line 83 
+Found Token '_mathFunction' (262) at line 83 
+Found Token '(' (298) at line 83 
+Found Token 'INTEGER' (268) at line 83 
+Found Token '_A' (262) at line 83 
+Found Token ',' (301) at line 83 
+Found Token 'INTEGER' (268) at line 83 
+Found Token '_B' (262) at line 83 
+Found Token ')' (299) at line 83 
+Found Token ';' (300) at line 83 
+Found Token '[' (303) at line 84 
+Found Token '_A' (262) at line 85 
+Found Token 'SUBSTRACT' (292) at line 85 
+Found Token '_B' (262) at line 85 
+Found Token ';' (300) at line 85 
+Found Token '_A' (262) at line 86 
+Found Token 'DIVIDE' (291) at line 86 
+Found Token '_B' (262) at line 86 
+Found Token ';' (300) at line 86 
+Found Token '_B' (262) at line 87 
+Found Token 'ADD' (292) at line 87 
+Found Token '_A' (262) at line 87 
+Found Token ';' (300) at line 87 
+Found Token ']' (304) at line 88 
+Found Token ']' (304) at line 89 
+Found Token ']' (304) at line 90 
+Found Token '}' (306) at line 91 
+Found Token '}' (306) at line 92 
+Found END OF FILE 

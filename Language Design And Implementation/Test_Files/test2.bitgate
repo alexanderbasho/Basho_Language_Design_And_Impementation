@@ -1,0 +1,33 @@
+CLASS _FIRST {
+    INTEGER HEADFUNC () 
+    {
+        INTEGER _integer; 
+        _integer = [5];
+        INTEGER _integer2 = 10; 
+        FLOAT _float = 13.7; 
+        CHARACTER _character = ['M'];
+        CHARACTER _character2 = 'H';
+        CHARROW _charrow = "assa";
+        BOOL _bool = 0;
+        BOOL _bool2;
+        _bool2 = 1;
+        
+        VOID _firstFunction (_integer, _integer2); $$ Single Line Comment
+
+       #@ 
+        @ This is 
+        @ the WHEATHER
+        @ Statement 
+        @#  
+        
+       WHETHER(_integer2>_integer) DO 
+        [
+            WRITE ("Ten is greater than five");
+        ]
+        OTHERWISE DO 
+        [
+            READ (_integer);
+            RETURN 0 ;
+        ]
+    }
+}
